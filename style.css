@@ -1,0 +1,52 @@
+body {
+  background-color: red;
+  background-image: url(https://static2.cbrimages.com/wordpress/wp-content/uploads/2021/02/Scarlet-Witch.jpg);
+  text-align: center;
+}
+.Nav {
+	background-color: goldenrod;
+	display: flex;
+	width:  100%;
+	justify-content: space-between;
+	align-items: center;
+  color: snow;
+}
+p {
+  color: rgba(255,255,255,1);
+  background-color: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
+li {
+	list-style: None;
+	display: inline-block;
+	margin-right: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.row {
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	font-size: 15px;
+}
+.Bio {
+  text-align: right;
+  color: snow;
+
+}
+.Powers {
+  text-align: left;
+  color: snow;
+}
+.Marvel {
+  text-align: right;
+  color: snow;
+  font-size: 15px;
+}
+.bottom-nav {
+  background-color: goldenrod;
+  justify-content: space-between;
+}
